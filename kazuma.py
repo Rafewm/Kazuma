@@ -351,7 +351,7 @@ if __name__ == "__main__":
         sudoList = config['sudoList']
         botToken = config['botToken']
     except:
-        config ={"database": "df2eksrrkdrmls.db", "botToken": "1677102685:AAEDdR9ypj9xq_RfFhzQwqUC6wMGPjGyOW4", "sudoList": [563239385]}
+        config ={"database": "df2eksrrkdrmls.db", "botToken": "1699062794:AAEjuMPyl6VZHqpEvec4i-PAx9sEITOjRk8", "sudoList": [563239385]}
         with open('config.json', 'w') as f: json.dump(config, f, indent=4)
         print('Edit the config.json and add all necessary information.')
 
